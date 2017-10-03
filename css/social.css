@@ -1,0 +1,79 @@
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* github button class*/
+.githubBtn{
+    background: black;
+}
+
+.githubBtn:before{
+      font-family: "FontAwesome";
+      content: "\f113";
+      /*content: "\f092"; /* add github icon */
+}
+
+.githubBtn:hover{
+      color: black;
+      background: #fff;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color:#0094BC;
+      background: #fff;
+}
+/* mail button class*/
+.mailBtn{
+    background: grey;
+}
+
+.mailBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e0"; /* add mail icon */
+}
+
+.mailBtn:hover{
+      color: grey;
+      background: #fff;
+}
+
